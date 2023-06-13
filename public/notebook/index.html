@@ -28,7 +28,7 @@
             <i @click="currTabName='doc'" :class="currTabName=='doc'?'curr':''" class="fa fa-files-o"></i>
             <i @click="currTabName='upload'" :class="currTabName=='upload'?'curr':''" class="fa fa-cloud-upload"></i>
             <i @click="currTabName='user'" :class="currTabName=='user'?'curr':''" class="fa fa-user-circle"></i>
-            <i @click="currTabName='config'" :class="currTabName=='config'?'curr':''" class="fa fa-cog"></i>
+            <!-- <i @click="currTabName='config'" :class="currTabName=='config'?'curr':''" class="fa fa-cog"></i> -->
             <label v-if="isLoading" class="fa fa-spin fa-spinner"></label>
             <label v-else-if="saveOk" class="fa fa-check"></label>
             <!-- <i class="fa fa-user-circle" @click="onCessLogin"></i> -->
